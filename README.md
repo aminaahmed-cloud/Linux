@@ -3,7 +3,7 @@
 ******
 
 <details>
-<summary>Step 1: Linux Mint Virtual Machine </summary>
+<summary>Linux Mint Virtual Machine </summary>
  <br />
 I usually use Debian on UTM but for this project i will be using Linux Mint so that i practiced and tried more than one OS.
 I will use this free online VM platform to get access to Linux Mint
@@ -18,7 +18,7 @@ _Just click on "run online" and it will spin up a new Mint OS machine for you_
 ******
 
 <details>
-<summary>Exercise 2: Bash Script - Install Java </summary>
+<summary>Bash Script - Install Java </summary>
  <br />
 
  As i was using an online platform for the OS everything was brand new so i had to start with installing VIM 
@@ -51,3 +51,39 @@ Explanation of `if else` script:
 </details>
 
 ******
+<details>
+<summary> Bash Script - User Processes Sorted </summary>
+ <br />
+
+- Descriptiom:
+
+-Write a bash script using Vim editor that checks all the processes running for the current user (USER env var) and prints out the processes in console.
+
+<img src="https://i.imgur.com/6yaMkeV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+- The outcome:
+
+<img src="https://i.imgur.com/g1TSfTW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+******
+
+- Extend the previous script to ask for a user input for sorting the processes output either by memory or CPU consumption, and print the sorted list.
+
+<img src="https://i.imgur.com/JfKXUxh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+- Extend the previous script to ask additionally for user input about how many processes to print.
+
+<img src="https://i.imgur.com/RCfMG0m.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+the outcome
+
+<img src="https://i.imgur.com/ieHIYU8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+<img src="https://i.imgur.com/jBBwc4x.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+<img src="https://i.imgur.com/TaeBaIu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+</details>
+
