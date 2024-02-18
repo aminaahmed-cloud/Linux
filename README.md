@@ -125,10 +125,6 @@ Extend the script to check after running the application that the application ha
 <summary> Start NodeJs App with Service user & Log Directory </summary>
  <br />
 
-**script**
-
-</details>
-
 Node App with Log Directory
 
 Extend the script to accept a parameter input log_directory: a directory where application will write logs.
