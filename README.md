@@ -85,5 +85,70 @@ the outcome
 
 <img src="https://i.imgur.com/TaeBaIu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
+
 </details>
 
+******
+
+<details>
+<summary> Start NodeJs App </summary>
+ <br />
+
+Start Node App
+Write a bash script with following logic: 
+
+Install NodeJS and NPM and print out which versions were installed
+Download an artifact file from the URL: https://node-envvars-artifact.s3.eu-west-2.amazonaws.com/bootcamp-node-envvars-project-1.0.0.tgz.
+Unzip the downloaded file
+Set the following needed environment variables: APP_ENV=dev, DB_USER=myuser, DB_PWD=mysecret
+Change into the unzipped package directory
+Run the NodeJS application by executing the following commands:  npm install and node server.js
+
+<img src="https://i.imgur.com/qmcUS2x.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/1pHoTLK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Node App Check Status
+
+Extend the script to check after running the application that the application has successfully started and prints out the application's running process and the port where it's listening. 
+
+<img src="https://i.imgur.com/RMWailL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/ubDWPfY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+</details>
+
+******
+
+<details>
+<summary> Start NodeJs App with Service user & Log Directory </summary>
+ <br />
+
+**script**
+
+</details>
+
+Node App with Log Directory
+
+Extend the script to accept a parameter input log_directory: a directory where application will write logs.
+
+The script will check whether the parameter value is a directory name that doesn't exist and will create the directory, if it does exist, it sets the env var LOG_DIR to the directory's absolute path before running the application, so the application can read the LOG_DIR environment variable and write its logs there.
+
+<img src="https://i.imgur.com/K2yGkVw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/FASpnzY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+Node App with Service user
+
+You've been running the application with your user. But we need to adjust that and create own service user: myapp for the application to run. So extend the script to create the user and then run the application with the service user. 
+
+<img src="https://i.imgur.com/ZmJFv1T.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/8aLf5CK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+</details>
+
+******
